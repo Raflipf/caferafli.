@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Cafe rafli</title>
+
+    <!-- Fonts untuk tampilan (popins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Icons untuk tampilan -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Cafe<span>rafli</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Pesan</a>
+        
+      </div>
+
+      <!-- Father icons untuk tombol website -->
+      <div class="navbar-extra">
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="clipboard"></i
+        ></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- Tutor Cart start -->
+      <div class="cart">
+        <h1><b>Cara pesan :</b></h1>
+        <div class="cart-item">
+          <img src="img/products/scan.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>1. Scan Barcode</h3>
+            <div class="item-price">Scan Barcode yang telah di 
+             <hr> sediakan di tiap kursi</div>
+          </div>
+          <i data-feather="grid" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/ketik1.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>2. Ketik nomor meja</h3>
+            <div class="item-price">Ketik nomor meja di form <hr>pesan yang telah di sediakan</div>
+          </div>
+          <i data-feather="edit-3" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/ketik2.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>3. Ketik Pesanan anda</h3>
+            <div class="item-price">Ketik pesanan anda dalam <hr> form pesan yang telah di sediakan</div>
+          </div>
+          <i data-feather="edit-3" class="REOMVE-item"></i>
+        </div>
+
+        <div class="cart-item">
+          <img src="img/products/pelayan1.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>4. Tunggu pesanan</h3>
+            <div class="item-price">Tunggu pesanan anda kami
+             <hr>proses pesanan anda segera</div>
+          </div>
+          <i data-feather="loader" class="loader-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/pembayaran.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>5. Pembayaran</h3>
+            <div class="item-price">Lakukan pembayaran di kasir
+             <hr>Setelah anda selesai</div>
+          </div>
+          <i data-feather="dollar-sign" class="loader-item"></i>
+        </div>
+      </div>
+      <!-- tutor Cart end -->
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Coffee so good <span>change your life</span></h1>
+        <p>
+          <bold>Coffee adalah jiwa kita.</bold><br/><br
+          <i>“Secangkir kopi dapat menjadi sebuah inspirasi, 
+          bahwa ia tidak pernah berdusta atas nama rasa. Ia selalu punya cerita, bahwa yang hitam tidak selalu kotor, 
+          bahwa rasa pahit juga tidak selalu membawa kesedihan.”</i>
+        </p>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2><span><i>Tentang</span> Cafe<font color="yellow">rafli</font></i></h3>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/cafe2.jpg " alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih Cafe kami?</h3>
+          <p>
+           <i> <h4> Kami mengutamakan kualitas dalam setiap langkah proses pembuatan pesanan. Mulai dari pemilihan bahan, pemanggangan yang tepat, hingga penyajian, setiap tahapan dilakukan dengan cermat untuk menghasilkan hidangan yang sempurna.</h4></i>
+            <hr>Kami memiliki tim profesional yang selalu siap melayani Anda dengan senyuman hangat dan perhatian penuh. Kami menghargai kepercayaan yang Anda berikan kepada kami, dan itulah mengapa kami berusaha keras untuk menjaga standar tertinggi dalam segala hal yang kami lakukan. Kami mengutamakan kepuasan pelanggan, dari mulai pemesanan hingga saat Anda meninggalkan cafe kami dengan perasaan bahagia.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Menu minuman Section start -->
+    <section id="menu" class="menu">
+      <h2><span><i>Drink</span> Cafe<font color="yellow">rafli</font></i></h2>
+
+      <p>
+       Pilih Minuman yang anda inginkan kami memiliki coffee, Milk Base, dan yang lainya.
+      </p>
+
+      <div class="row">
+        
+        <div class="menu-card">
+          <img src="img/menu/minuman/expresso.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- Espresso -</h3>
+          <p class="menu-card-price">IDR 25K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/minuman/cappucino.jpg" alt="Cappucino" class="menu-card-img" />
+          <h3 class="menu-card-title">- Cappucino -</h3>
+          <p class="menu-card-price">IDR 32K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/minuman/cafe late.jpg" alt="cafe late class="menu-card-img" />
+          <h3 class="menu-card-title">- Cafe late -</h3>
+          <p class="menu-card-price">IDR 34K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/minuman/Macchiato.jpg" alt="Macchiato" class="menu-card-img" />
+          <h3 class="menu-card-title">- Macchiato -</h3>
+          <p class="menu-card-price">IDR 30K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/minuman/Marrochino.jpg" alt="Marrochino" class="menu-card-img" />
+          <h3 class="menu-card-title">- Marrochino -</h3>
+          <p class="menu-card-price">IDR 27K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/minuman/Breve.jpg" alt="Breve" class="menu-card-img" />
+          <h3 class="menu-card-title">- Breve -</h3>
+          <p class="menu-card-price">IDR 30K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/minuman/Mocha.jpg" alt="Mocha" class="menu-card-img" />
+          <h3 class="menu-card-title">- Mocha-</h3>
+          <p class="menu-card-price">IDR 42</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/minuman/vanila cake.jpg" alt="Vanillacake" class="menu-card-img" />
+          <h3 class="menu-card-title">- Vanilla cake -</h3>
+          <p class="menu-card-price">IDR 32K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/minuman/Vanila late.jpg" alt="vanillalate" class="menu-card-img" />
+          <h3 class="menu-card-title">- Vanilla late -</h3>
+          <p class="menu-card-price">IDR 34K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/minuman/coffee ice cream.jpg" alt="flat white" class="menu-card-img" />
+          <h3 class="menu-card-title">- Ice Coffee -</h3>
+          <p class="menu-card-price">IDR 37K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/minuman/Banana Outmilk.jpg" alt="banana" class="menu-card-img" />
+          <h3 class="menu-card-title">- Banana Out Milk -</h3>
+          <p class="menu-card-price">IDR 46k</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/minuman/green tea.jpg" alt="green tea" class="menu-card-img" />
+          <h3 class="menu-card-title">- Green Tea -</h3>
+          <p class="menu-card-price">IDR 32K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/minuman/chocolate Milk.jpg" alt="=chocolate" class="menu-card-img" />
+          <h3 class="menu-card-title">- Chocolate Milk -</h3>
+          <p class="menu-card-price">IDR 29K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/minuman/lemon mint.jpg" alt="squash" class="menu-card-img" />
+          <h3 class="menu-card-title">- Lemon Mint -</h3>
+          <p class="menu-card-price">IDR 28K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/minuman/starberrr squash.png" alt="squash" class="menu-card-img" />
+          <h3 class="menu-card-title">- Strawberry Squash -</h3>
+          <p class="menu-card-price">IDR 28K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section end -->
+
+    <!-- Makanan Section start -->
+    <section id="makanan" class="menu">
+      <h2><span><i>Food</span> Cafe<font color="yellow">rafli</font></i></h2>
+
+      <p>
+       Kami menyediakan makanan berat maupun ringan sangat cocok untuk anda nikmati
+      </p>
+
+     <div class="row">
+        
+        <div class="menu-card">
+          <img src="img/menu/Makanan/Beef ribs bbq.jpg" alt="Beef" class="menu-card-img" />
+          <h3 class="menu-card-title">- Beef Ribs BBQ -</h3>
+          <p class="menu-card-price">IDR 95K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/Makanan/french rice.jpg" alt="fried" class="menu-card-img" />
+          <h3 class="menu-card-title">- Fried Rice -</h3>
+          <p class="menu-card-price">IDR 45K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/Makanan/Green salad.jpg" alt="green" class="menu-card-img" />
+          <h3 class="menu-card-title">- Green Salad -</h3>
+          <p class="menu-card-price">IDR 50K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/Makanan/mixed potato.jpg" alt="mixes" class="menu-card-img" />
+          <h3 class="menu-card-title">- Mixed Potato -</h3>
+          <p class="menu-card-price">IDR 45K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/Makanan/tradisional noodle.jpg" alt="Noodle" class="menu-card-img" />
+          <h3 class="menu-card-title">- Tradisional Noodle -</h3>
+          <p class="menu-card-price">IDR 55K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/Makanan/seblak.jpg" alt="seblak" class="menu-card-img" />
+          <h3 class="menu-card-title">- Seblak Foood -</h3>
+          <p class="menu-card-price">IDR 35K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/Makanan/humberger.jpg" alt="humberger" class="menu-card-img" />
+          <h3 class="menu-card-title">- Humberger -</h3>
+          <p class="menu-card-price">IDR 35K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/Makanan/hotodog.jpg" alt="hotodog" class="menu-card-img" />
+          <h3 class="menu-card-title">- Hotdog -</h3>
+          <p class="menu-card-price">IDR 35K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section end -->
+
+    <!-- Dessert Section start -->
+    <section id="Dessert" class="menu">
+      <h2><span><i>Dessert</span> Cafe<font color="yellow">rafli</font></i></h2>
+
+      <p>
+       Kami menyediakan dessert untukmu agar hidupmu lebih manis dan bahagia
+      </p>
+
+     <div class="row">
+        
+        <div class="menu-card">
+          <img src="img/menu/Dessert/Peach Cake.jpg" alt="Peach Cake" class="menu-card-img" />
+          <h3 class="menu-card-title">- Peach Cake -</h3>
+          <p class="menu-card-price">IDR 37K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/Dessert/orang bundt cake.jpg" alt="Bund Cake" class="menu-card-img" />
+          <h3 class="menu-card-title">- Bund Cake -</h3>
+          <p class="menu-card-price">IDR 40K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/Dessert/color donuts.jpg" alt="Color Donuts" class="menu-card-img" />
+          <h3 class="menu-card-title">- Color Donuts -</h3>
+          <p class="menu-card-price">IDR 55K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/Dessert/Stawberrt cupcake.jpg" alt="Strawberry cupcake" class="menu-card-img" />
+          <h3 class="menu-card-title">- Strawberry Cupcake -</h3>
+          <p class="menu-card-price">IDR 35K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/Dessert/terta otera.jpg" alt="Terta Otera" class="menu-card-img" />
+          <h3 class="menu-card-title">- Terta Otrera -</h3>
+          <p class="menu-card-price">IDR 39K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/Dessert/Chocolate Ball.jpg" alt="Chocolateball" class="menu-card-img" />
+          <h3 class="menu-card-title">- Chocolate Ball -</h3>
+          <p class="menu-card-price">IDR 20K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/Dessert/Strawberry crepe.jpg" alt="Strawberrycarepe" class="menu-card-img" />
+          <h3 class="menu-card-title">- Strawberry Crepe -</h3>
+          <p class="menu-card-price">IDR 33K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section end -->
+
+ <!-- Contact pesan Section start -->
+ <section id="contact" class="contact">
+  <h2><span>Pesan</span> Disini</h2>
+  <p>
+    Lakukan pemesanan di form di bawah ini. jangan lupa untuk mengisi Nama, Gmail, Nomor Kursi dan Pesanan anda.
+  </p>
+
+  <div class="row">
+    <form
+  action="https://formspree.io/f/xyyargyz"
+  method="POST"
+>
+      <div class="input-group">
+        <i data-feather="user"></i>
+        <input type="name" name="Nama" placeholder="Nama" />
+      </div>
+
+      <div class="input-group">
+        <i data-feather="mail"></i>
+        <input type="email" name="email" placeholder="Email" />
+      </div>
+
+      <div class="input-group">
+        <i data-feather="edit-3"></i>
+        <input type="text" name="Nomor Kursi" placeholder= "Nomor kursi" />
+      </div>
+
+      <div class="input-group">
+        <i data-feather="edit"></i>
+        <input type="text" name="Pesanan" placeholder="Pesanan anda" />
+      </div>
+
+      <button type="submit" class="btn">Pesan</button>
+    </form>
+  </div>
+</section>
+<!-- Contact pesan Section end -->
+
+    
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/raflipf_"><i data-feather="instagram"></i></a>
+        <a href="https://twitter.com"><i data-feather="twitter"></i></a>
+        <a href="https://www.facebook.com/"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About me</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Pesan</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="index.html">Caferafli</a>.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Feather Icons skript untuk  -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
